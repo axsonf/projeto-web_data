@@ -10,6 +10,8 @@ WebData é um site feito por um desenvolvedor front-end iniciante, e tem
 como objetivo guardar algumas informações sobre tags entre outras coisas
 sobre Html e Css.
 
+[AVISO]
+Esse site mudará de acordo com a experiencia de seu criador.
 
 Algumas coisas que voce precisa saber
 [conteudo do pdf]

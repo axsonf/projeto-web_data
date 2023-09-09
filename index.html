@@ -20,7 +20,7 @@
                 </nav>
     </header>
     <main>
-        <article>
+        <article class="introducao">
                 <div class="artigo">
                     <h1>Hello! </h1>
                     <h1>Welcome to WebData</h1>
@@ -42,8 +42,211 @@
 
         <h2>
             Algumas coisas que voce precisa saber
-            [conteudo do pdf]
         </h2>
+
+            <article>
+                <h3>“Eu programo em HTML”</h3>
+                <p>
+                    Talvez você já tenha ouvido alguém falar a frase acima. Geralmente ela é dita por pessoas iniciantes ou então aqueles que se baseiam apenas na capa de um único livro da série <strong>Head First</strong> (use a cabeca), que estampa na capa “programação
+                    em HTML5”.
+                </p>
+                <p>
+                    Acontece que a propria sigla ja entrega seu objetivo: <strong>
+                        Hypertext
+                        Markup Language
+                    </strong> traduzido para o bom e velho Português
+                    significa <strong>Linguagem de Marcação Hipertexto</strong>. Você vai notar
+                    daqui a pouco que ela não funciona com instruções, como toda
+                    linguagem de programacdo. A HTML é baseada em <strong>marcações</strong>
+                    chamadas <strong>tags</strong>, e elas comandam tudo.
+                </p>
+                <p>
+                    Além disso, o termo <strong>“programação”</strong> envolve estruturas especializadas que dependem do uso de <strong>variaveis simples</strong> e <strong>compostas</strong>,
+                    <strong>condições</strong>, <strong>laços</strong> e até coisas mais complexas como <strong>objetos</strong>. Nada disso existe na
+                    HTML nem nas CSS. Por outro lado, todas essas caracteristicas estao presentes na
+                    linguagem <strong>JavaScript</strong>. Essa sim é uma <strong>Linguagem de Programação</strong>.
+                </p>
+                
+                <p>
+                    HTML trabalha fundamentada apenas nas <strong>marcas</strong> ou <strong>etiquetas</strong> (do Inglês <strong>tag</strong>) e as
+                    CSS funcionam baseadas nos <strong>seletores</strong>, <strong>propriedades</strong> e <strong>valores</strong>. Você vai entender
+                    mais sobre isso mais pra frente.
+                </p>
+                <p>
+                    Sendo assim, em breve você tera a base suficiente para conseguir dizer com certeza
+                    que HTML e CSS não são linguagens de programacao.
+                </p>
+            </article>
+            <hr>
+
+            <article>
+                <h3>Para que serve HTML, CSS e JS?</h3>
+                <p>
+                    Uma das coisas mais importantes para quem esta comecando o desenvolvimento de
+                    sites é compreender para que serve esse trio de tecnologias, que geralmente sdo
+                    estudados em conjunto. Basicamente, de forma resumida, temos um panorama
+                    simples:
+                </p>
+                <img src="images_exs/html-css.png" alt="Html, Css e JavaScript">
+                <p>
+                    Guarde bem a tabela anterior sempre que voc precisar decidir qual linguagem vai
+                    utilizar em cada situação.
+                </p>
+                <p>
+                    Abra ai o seu site de noticias favorito. Ao abrir uma determinada noticia, vocé vaiver
+                    0 texto, as imagens, os videose todo aquele contetido que compée a noticia em si.
+                    Isso tudo foi criado em HTML.Ela é focada em contetido.
+                </p>
+                <p>
+                    Agora preste atencao nas cores, na posicaéo dos componentes e organizacao visual do
+                    contetdo em colunas, blocos visuais e tudo mais. Tudo foi definido em CSS. Ela é
+                    focada no design/estilo.
+                </p>
+                <p>
+                    Finalmente, provavelmente existe o menu do site. Quando vocé clica nele, acontece
+                    uma animacao. Ao mover o mouse sobre as sessdes, € possivel que acontecam
+                    algumas interac6es interessantes. Isso foi desenvolvido com ajuda de JavaScript. Ela
+                    é uma linguagem focada nas interagées.
+                </p>
+            </article>
+
+            ____________________________________________
+
+
+            <article>
+                <h3>Tags HTML, ai vamos nos</h3>
+                <p>
+                    Como eu ja disse anteriormente, a HTML funciona baseada em marcacées especificas
+                    chamadas tags. Uma tag ¢ um conjunto de palavras entre sinais de colchete
+                    angular, conforme representado a seguir.
+                </p>
+                [FOTO]
+                <p>
+                    Na imagem anterior, vocé consegue perceber o uso da tag <p> para a criagéo de um
+                    paragrafo simples. A maioria das tags possuem uma abertura e um fechamento, e
+                    vocé identifica isso pela presenga da barra no fechamento da tag.
+                </p>
+                <p>
+                    Além disso, as tags também podem ter atributos e valores, que vao configurar seu
+                    comportamento:
+                </p>
+                [FOTO]
+                <p>
+                    Uma mesma tag pode ter varios parametros, cada um com seu valor. Entretanto,
+                    algumas tags ndéo possuem a necessidade de contetido interno e por isso nao
+                    possuem fechamento. E o caso, por exemplo, das tags <br> e <img>. Isso é algo
+                    natural, ndo se preocupe com isso agora.
+                </p>
+            </article>
+
+
+            _____________________________
+
+
+            <article>
+                <h3>
+                    Eu ainda uso <!-- <font> -->, <!--<center>-->, <!--<s>-->,
+                    <!--<u>-->, ooo
+                </h3>
+                <p>
+                    Com o surgimento da verséo 5 da HTML, algumas tags simplesmente deixaram de
+                    existir ou tornaram-se obsoletas. Uma tag obsoleta pode até estar funcionando no
+                    seu navegador hoje em dia, mas a prépria W3C - consércio responsdavel por manter
+                    as especificagdes da linguagem - recomenda que elas nao sejam mais usadas pelos
+                    profissionais e aos poucos nao serdo mais suportadas pelos navegadores nas suas
+                    futuras versdes.
+                </p>
+                <p>
+                    De forma simples e direta (vou até escrever “gritando” aqui, pra dar énfase): NAO
+                    USE TAGS OBSOLETAS NO SEU SITE! Ufa! Que alivio colocar isso pra fora e
+                </p>
+            </article>
+
+
+            _______________________________________________
+
+
+            <article>
+                <h3>Chegou a vez dos seletores CSS</h3>
+                <p>
+                    Como ja vimos anteriormente, as CSS sdo as Cascading Style Sheets (Folhas de
+                    Estilo em Cascata). Elas séo usadas para configurar um resultado visual dos
+                    elementos HTML.
+                </p>
+                <p>
+                    As configuragdes das CSS sao realizadas através dos seletores. Vamos ver a
+                    aatomia de um seletor.
+                </p>
+                [FOTO]
+                <p>
+                    O seletor apresentado anteriormente vai configurar o visual dos elementos de
+                    paragrafo do site corrente. O uso das chaves delimita todas as declaracées relativas
+                    ao seletor atual. No seletor que eu te mostrei, serdo feitas trés configuracdes:
+                </p>
+                <ul>
+                    <li>* A fonte escolhida foi Arial.</li>
+                    <li>* Otamanho da letra sera 12pt (pontos).</li>
+                    <li>* Acor da letra sera azul.</li>
+                </ul>
+                <p>
+                    Note que, ao final de cada declaragao, temos que colocar ponto-e-virgula para
+                    indicar que ela se encerrou.
+                </p>
+                <p>
+                    Todas as propriedades devem ter seu valor, e eles devem ser separados por dois
+                    pontos. Vocé nado é obrigado(a) a usar nenhuma  declaracdo especifica. Sd utilize a
+                    propriedade que vocé realmente deseja alterar.
+                </p>
+            </article>
+
+
+            __________________________________________
+
+
+
+            <article>
+                <h3>
+                    Estrutura basica de um documento
+                    HTML
+                </h3>
+                <p>
+                    Ao criar um novo documento HTML, devemos sempre escrever a estrutura basica de
+                    um documento desse formato. Vamos analisar cada uma das 11 linhas que compé6em
+                    esse documento base.
+                </p>
+                [FOTO]
+                <ul>
+                    <li>
+                        Linha 1: Indica que o documento atual sera escrito na versdo mais atualizada da
+                        linguagem (no caso, HTML5)
+                    </li>
+                    <li>
+                        Linhas 2 e 11: Delimitam o documento HTML, que é sempre dividido em duas
+                        partes: a cabeca e o corpo. Na linha 2, também estamos indicando que o contetido
+                        desse site sera no idioma Portugués do Brasil.
+                    </li>
+                    <li>
+                        Linhas 3 e 7: Delimitam a cabega da pagina, local onde sao realizadas algumas
+                        configuragées iniciais como formatos, estilos, icone de favoritos, etc.
+                    </li>
+                    <li>
+                        Linha 4: adiciona ao documento atual o suporte a caracteres acentuados.
+                        Remover essa linha pode causar erros de  renderizacdo de algumas letras na tela.
+                    </li>
+                    <li>
+                        Linha 5: Indica que o conteldo aparecera, por padrao, ocupando todo o espaco
+                        disponivel da tela e com uma escala de 1:1.
+                    </li>
+                    <li>
+                        Linha 6: Configura 0 titulo da pagina, que aparecera como identificagéo da aba do
+                        navegador, ao lado do favicon.
+                    </li>
+                    <li>
+                        Linhas 8 e 10: Delimitam o corpo da pagina, a maior porcdo do site, que vai
+                        aparecer na tela. E aqui onde colocaremos todo 0 nosso conteudo.
+                    </li>
+                </ul>
+            </article>
     </main>
 
     <footer>

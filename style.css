@@ -14,6 +14,7 @@
     --cor3: #1220B8;
     --cor4: #0F1991;
     --cor5: #080E52;
+    --cor6: #40e0d0;
 
     --font1: 'Roboto', sans-serif;
     --font2: 'bebas';
@@ -25,36 +26,98 @@
 }
 
 body {
-   
+    background-color: var(--cor0);
 }
 
 header {
-    background-image: linear-gradient(to top, #6a72ce, #1627DE);
-    padding: 0px;
+    background-image: linear-gradient(to bottom, #0F1991, #1525D1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
 }
 
-header img {
-    padding: 15px 0px 0px 0px;
+.caixa {
+    border-radius: 7px;
+    box-shadow: -1px -5px 5px rgba(0, 0, 0, 0.178);
 }
 
-header > nav#menu {
-    text-align: center;
-    padding: 10px 50px 10px 0px;
+#menu {
+    padding-right: 50px;
 }
 
-header  > nav#menu > a {
+#menu > a {
     color: white;
-    font-family: var(--font2);
-    font-weight: bold;
+    font-family: var(--font1);
+    padding: 7px 15px;
+    margin: 0px 5px;
     text-decoration: none;
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 5px 20px;
-    margin: 0px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
+
 }
 
-nav#menu > a:hover {
-    color: var(--cor2);
-    background-color: var(--cor5);   
-    transition: .4s;
+#menu > a:hover {
+    color: var(--cor5);
+    background-color: var(--cor0);
+    transition: .3s;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    text-align: justify;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.493);
+    border-radius: 0px 0px 7px 7px;
+}
+
+article {
+    display: flex;
+    padding-bottom: 40px;
+    margin: 30px;
+    /*margin: 0px 30em 0px 0px;*/
+}
+
+.artigo > h1 {
+    color: var(--cor5);
+    font-family: var(--font2);
+    font-size: 3.7em;
+}
+
+.artigo > p {
+    text-indent: 15px;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 0px 50px 0px 0px;
+}
+
+main > aside {
+    background-color: var(--cor6);
+    padding: 10px;
+    margin: -20px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.253);
+}
+
+main > aside > ul {
+    list-style-position: inside;
+    list-style-type: '\26A0\FE0F\00a0';
+    /* Não funciona em todos os navegadores. */
+}
+
+main > h2 {
+    padding-top: 50px;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 30px 0px;
 }

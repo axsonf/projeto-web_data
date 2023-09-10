@@ -36,7 +36,6 @@ Uma das coisas mais importantes para quem esta comecando o desenvolvimento de
 sites é compreender para que serve esse trio de tecnologias, que geralmente sdo
 estudados em conjunto. Basicamente, de forma resumida, temos um panorama
 simples:
-
 [FOTO]
 
 Guarde bem a tabela anterior sempre que vocé precisar decidir qual linguagem vai
@@ -54,7 +53,7 @@ Finalmente, provavelmente existe o menu do site. Quando vocé clica nele, aconte
 uma animacao. Ao mover o mouse sobre as sessdes, € possivel que acontecam
 algumas interac6es interessantes. Isso foi desenvolvido com ajuda de JavaScript. Ela
 é uma linguagem focada nas interagées.
-
+
 ____________________________________________
 
 
@@ -63,7 +62,6 @@ Tags HTML, ai vamos nos
 Como eu ja disse anteriormente, a HTML funciona baseada em marcacées especificas
 chamadas tags. Uma tag ¢ um conjunto de palavras entre sinais de colchete
 angular, conforme representado a seguir.
-
 [FOTO]
 
 Na imagem anterior, vocé consegue perceber o uso da tag <p> para a criagéo de um
@@ -72,14 +70,13 @@ vocé identifica isso pela presenga da barra no fechamento da tag.
 
 Além disso, as tags também podem ter atributos e valores, que vao configurar seu
 comportamento:
-
 [FOTO]
 
 Uma mesma tag pode ter varios parametros, cada um com seu valor. Entretanto,
 algumas tags ndéo possuem a necessidade de contetido interno e por isso nao
 possuem fechamento. E o caso, por exemplo, das tags <br> e <img>. Isso é algo
 natural, ndo se preocupe com isso agora.
-
+
 
 _____________________________
 
@@ -93,13 +90,13 @@ seu navegador hoje em dia, mas a prépria W3C - consércio responsdavel por mant
 as especificagdes da linguagem - recomenda que elas nao sejam mais usadas pelos
 profissionais e aos poucos nao serdo mais suportadas pelos navegadores nas suas
 futuras versdes.
-
+
 
 
 De forma simples e direta (vou até escrever “gritando” aqui, pra dar énfase): NAO
 
 USE TAGS OBSOLETAS NO SEU SITE! Ufa! Que alivio colocar isso pra fora e
-
+
 
 _______________________________________________
 
@@ -111,8 +108,8 @@ Estilo em Cascata). Elas séo usadas para configurar um resultado visual dos
 elementos HTML.
 
 As configuragdes das CSS sao realizadas através dos seletores. Vamos ver a
-anatomia de um seletor.
-
+aatomia de um seletor.
+
 [FOTO]
 
 
@@ -130,7 +127,7 @@ indicar que ela se encerrou.
 Todas as propriedades devem ter seu valor, e eles devem ser separados por dois
 pontos. Vocé nado é obrigado(a) a usar nenhuma declaracdo especifica. Sd utilize a
 propriedade que vocé realmente deseja alterar.
-
+
 
 __________________________________________
 
@@ -142,7 +139,7 @@ HTML
 Ao criar um novo documento HTML, devemos sempre escrever a estrutura basica de
 um documento desse formato. Vamos analisar cada uma das 11 linhas que compé6em
 esse documento base.
-
+
 [FOTO]
 
 
@@ -166,4 +163,4 @@ navegador, ao lado do favicon.
 
 Linhas 8 e 10: Delimitam o corpo da pagina, a maior porcdo do site, que vai
 aparecer na tela. E aqui onde colocaremos todo 0 nosso conteudo.
-
+
